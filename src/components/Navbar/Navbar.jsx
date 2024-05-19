@@ -1,3 +1,4 @@
+import { FaCartShopping, FaUser } from "react-icons/fa6";
 function Navbar() {
   const list = (
     <>
@@ -60,7 +61,10 @@ function Navbar() {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Button</a>
+          <a className="flex space-x-3">
+            <FaCartShopping />
+            <FaUser />
+          </a>
         </div>
       </div>
     </>
