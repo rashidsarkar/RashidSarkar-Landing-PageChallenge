@@ -45,7 +45,7 @@ function Navbar() {
             </div>
             <ul
               tabIndex={0}
-              className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              className="menu font-semibold menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
             >
               {list}
             </ul>
@@ -56,7 +56,7 @@ function Navbar() {
           </a>
         </div>
         <div className="hidden navbar-center lg:flex">
-          <ul className="px-1 menu menu-horizontal text-text-primary">
+          <ul className="px-1 font-semibold menu menu-horizontal text-text-primary">
             {list}
           </ul>
         </div>
